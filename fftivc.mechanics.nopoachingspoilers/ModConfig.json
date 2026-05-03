@@ -1,0 +1,45 @@
+{
+  "ModId": "fftivc.mechanics.nopoachingspoilers",
+  "ModName": "Remove Rare Poaching Spoilers",
+  "ModAuthor": "Zodiark",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Removes star icon on rare poach discriptions.",
+  "ModDll": "",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.mechanics.nopoachingspoilers.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json",
+    "fftivc\\.mechanics\\.nopoachingspoilers\\.nuspec"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Zodi-ark",
+      "RepositoryName": "https://github.com/Zodi-ark/No-Poaching-Spoilers",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/Zodi-ark"
+}
