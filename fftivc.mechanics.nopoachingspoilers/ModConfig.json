@@ -3,14 +3,16 @@
   "ModName": "Remove Rare Poaching Spoilers",
   "ModAuthor": "Zodiark",
   "ModVersion": "1.0.0",
-  "ModDescription": "Removes star icon on rare poach discriptions.",
+  "ModDescription": "Removes the rare poach indicator (\u2726) from carcass obtained messages, keeping rare drop outcomes a mystery just like the previous installments of Final Fantasy Tactics.",
   "ModDll": "",
-  "ModIcon": "",
+  "ModIcon": "rarepoachindicator.png",
   "ModR2RManagedDll32": "",
   "ModR2RManagedDll64": "",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
-  "Tags": [],
+  "Tags": [
+    "GUI/HUD"
+  ],
   "CanUnload": null,
   "HasExports": null,
   "IsLibrary": false,
@@ -31,6 +33,37 @@
       "RepositoryName": "https://github.com/Zodi-ark/No-Poaching-Spoilers",
       "UseReleaseTag": true,
       "AssetFileName": "Mod.zip"
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "fftivc.utility.modloader": {
+          "Config": {
+            "UserName": "Nenkai",
+            "RepositoryName": "fftivc.utility.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "fftivc.utility.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
     }
   },
   "IsUniversalMod": false,
